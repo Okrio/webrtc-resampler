@@ -19,10 +19,3 @@ fi
 echo "src_Hz: ${src_Hz}  dst_Hz: ${dst_Hz}"
 ./resampler /Users/okrio/learning/AudioData/ref.pcm ../out/out.pcm ${src_Hz} ${dst_Hz}
 cd ../
-# current_dir=$PWD
-# current_folder=${current_dir}/build
-# cd ${current_folder}
-# make clean;make;
-# ./resampler /Users/okrio/learning/AudioData/ref.pcm ../out/out.pcm 16000 8000
-# cd ../
-# echo ${current_dir}

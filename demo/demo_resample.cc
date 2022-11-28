@@ -6,15 +6,7 @@
 #include "../inc/push_resampler.h"
 
 using namespace std;
-// int main()
-// {
-//     webrtc::Resampler resampler_;
-//     webrtc::PushResampler<float> resampler1_;
 
-//     resampler1_.InitializeIfNeeded(static_cast<int>(100));
-//     resampler1_.Resample(());
-
-// }
 
 int main(int argc, char *argv[])
 {
